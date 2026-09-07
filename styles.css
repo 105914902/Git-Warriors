@@ -14,6 +14,10 @@ nav ul li {
     background-color: #d8c49f;
     padding: 4px;
 }
+nav ul li:hover {
+    background-color: #a7926b;
+    transition-duration: 0.2s;
+}
 nav ul li a {
     text-decoration: none;
     color: black;
