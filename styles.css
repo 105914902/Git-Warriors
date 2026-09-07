@@ -6,9 +6,17 @@ body {
     background-color: white;
     float: center;
     justify-self:center;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 nav ul li {
     display: inline-block;
+    background-color: #d8c49f;
+    padding: 4px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
 }
 nav {
     text-align: center;
