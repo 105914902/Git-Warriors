@@ -1,6 +1,9 @@
 html {
     background-color: #d8c49f;
 }
+h1, h2 {
+    text-align: center;
+}
 body {
     width: 50%;
     background-color: white;
@@ -27,6 +30,8 @@ nav {
 }
 footer {
     text-align: center;
+    display: block;
+    width: 100%;
 }
 #logo {
     display: inline-block;
