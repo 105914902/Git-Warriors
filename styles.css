@@ -33,3 +33,10 @@ footer {
     width: 20%;
     text-align: center;
 }
+footer ul li {
+    display: inline-block;
+    padding: 7px;
+}
+footer ul li a {
+    text-decoration: none;
+}
