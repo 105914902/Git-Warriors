@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="tourism,travel,destination,booking">
+        <meta name="author" content="Oliver Harper">
+        <meta name="description" content="The homepage for the Tourism Association">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            table {
+                border-collapse: collapse;
+                text-align: center;
+            }
+            td {
+                border: 2px solid black;
+                padding: 3px;
+            }
+            #itinerary {
+                width: 50%;
+            }
+            th td {
+                text-align: center;
+            }
+            #aeroplane_image {
+                 float: left;
+                 width: 50%;
+                 min-width: 125px;
+                 display: inline-block;
+            }
+            #acknowledgment {
+                width: 70%;
+                justify-self: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="apply.html">Apply</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <h1>Tourism Association</h1>
+        <figure style="text-align: center;">
+            <img id="logo" src="tourism_association_logo.png" alt="The logo for the Tourism Association, green letters 'TA' on a blue circle">
+        </figure>
+        <p style="text-align: center;"><em>There's a place you'll show your face</em></p>
+
+        <p id="acknowledgment">The Tourism Association would like to acknowledge the Traditional Owners of the land on which Swinburne is located, and to pay our respects to elders past, present, and emerging.</p>
+        
+        <p>The Tourism Association is dedicated to making it easy to book accomodation, travel, and tours at the click of a button. We also have services to help you make your plans, and if you need we can also link you up with one of our planners.</p>
+        
+        <div style="display: flex">
+            <figure id="aeroplane_image">
+                <img style="width: 100%" src="aeroplane.jpg">
+                <caption>Wikimedia Commons</caption>
+            </figure>
+
+            <div style="float: right; flex-grow: 1; display: inline-block;">
+                <p>The Tourism Association makes planning flights easier than the nap you'll take while on them. Flights cost as little as free, depending on the source.
+                <p>Once you arrive at your destination, you are free to book a hotel room, and we will be able to find a hotel room as cheap as a bargain price per night.
+                <p>Members of us get a discount of up to 100% on various services, as well as various exclusive perks.
+            </div>
+        </div>
+
+        <h2>WE ARE CURRENTLY HIRING</h2>
+        <p>
+            Just head to the <a href="jobs.html">Jobs</a> page to look at jobs, or go straight to <a href="apply.html">Apply</a> to apply now! We are looking for employees in various fields, so any skillset would be greatly appreciated!
+        </p>
+
+        <h2>We Help Create Itineraries!</h2>
+        <p>Below we have an exemplary itinerary. Contact us to create one of your own!</p>
+
+        <table id="itinerary" style="justify-self: center;">
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Event</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>7:30pm</td>
+                <td>Landing in Liechtenstein</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">2</td>
+                <td>4:30am</td>
+                <td>Day-Long tour of Bern</td>
+            </tr>
+            
+            <tr>
+                <td>9:30pm</td>
+                <td>Sleep</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">3</td>
+                <td>2:30pm</td>
+                <td>Wake up</td>
+            </tr>
+            
+            <tr>
+                <td>4:30pm</td>
+                <td rowspan="3">Austria festival</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>All day</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>All day</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td colspan="2">Noon</td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td>1:30pm</td>
+                <td>Museo d'Italia</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>4:30pm</td>
+                <td>Flight home</td>
+            </tr>
+        <table>
+
+        <footer>
+            <ul>
+                <li>&copy; 2026 Swinburne</li>
+                <li><a href="https://github.com/105914902/Git-Warriors">Github</a></li>
+                <li><a href="https://student-team-vglhh2gk.atlassian.net/jira/software/projects/WD/boards/2/backlog?atlOrigin=eyJpIjoiZTQyMTZlMTM2NDE4NDA4Njg5YjIxMjQ0Nzg2MmE1ZGMiLCJwIjoiaiJ9">Jira</a></li>
+                <li><a href="mailto:105914902@student.swin.edu.au">Mail Us</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
