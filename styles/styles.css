@@ -7,8 +7,7 @@ h1, h2 {
 body {
     width: 50%;
     background-color: white;
-    float: center;
-    justify-self:center;
+    margin: 0 auto;
     padding: 10px;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -44,4 +43,57 @@ footer ul li {
 }
 footer ul li a {
     text-decoration: none;
+}
+#job-postings-container h2 {
+    text-align: left;
+}
+#job-postings-list {
+    padding-left: 40px;
+}
+.job-postings-list-entry {
+    margin-bottom: 40px;
+}
+.job-postings-list-entry::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#job-postings-list li::marker {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.job-title {
+    margin: 0;
+}
+.job-desc {
+    width: 50%;
+    float: left;
+}
+.job-details-container {
+    float: right;
+    width: 50%;
+}
+.job-details-table {
+    border-collapse: collapse;
+}
+.job-details-table th,
+.job-details-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+.job-details-table th {
+    width: 30%;
+    background-color: #d8c49f;
+}
+.job-details-table td {
+    width: 70%;
+}
+.job-details-table ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.job-details-table li {
+    margin-bottom: 5px;
 }
