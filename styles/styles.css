@@ -47,20 +47,35 @@ footer ul li a {
 #job-postings-container h2 {
     text-align: left;
 }
-.job-postings-list-entry {
-    overflow: auto;
-    margin-bottom: 30px;
+#job-postings-list {
+    padding-left: 40px;
 }
-.job-title, .job-desc {
+.job-postings-list-entry {
+    margin-bottom: 40px;
+}
+.job-postings-list-entry::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#job-postings-list li::marker {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.job-title {
+    margin: 0;
+}
+.job-desc {
+    width: 50%;
     float: left;
-    clear: left;
+}
+.job-details-container {
+    float: right;
     width: 50%;
 }
 .job-details-table {
-    width: 50%;
     border-collapse: collapse;
 }
-
 .job-details-table th,
 .job-details-table td {
     border: 1px solid #ccc;
@@ -68,21 +83,17 @@ footer ul li a {
     vertical-align: top;
     text-align: left;
 }
-
 .job-details-table th {
     width: 30%;
     background-color: #d8c49f;
 }
-
 .job-details-table td {
     width: 70%;
 }
-
 .job-details-table ul {
     margin: 0;
     padding-left: 20px;
 }
-
 .job-details-table li {
     margin-bottom: 5px;
 }
