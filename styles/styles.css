@@ -97,3 +97,46 @@ footer ul li a {
 .job-details-table li {
     margin-bottom: 5px;
 }
+
+/* Alan's CSS additions for the about page */
+.student-id {
+    color: #a7926b;
+    font-style: italic;
+    font-size: 0.9em;
+}
+#group-photo {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #d8c49f;
+    padding: 10px;
+    background-color: #fdfaf3;
+}
+#group-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#group-photo figcaption {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+.fun-facts-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+.fun-facts-table th,
+.fun-facts-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.fun-facts-table th {
+    background-color: #d8c49f;
+}
+.fun-facts-table tr:hover {
+    background-color: #a7926b;
+    transition-duration: 0.2s;
+}
