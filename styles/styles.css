@@ -179,7 +179,7 @@ footer ul li a {
 
 /* Alan's CSS additions for the about page */
 .student-id {
-    color: rgb(94, 81, 55);
+    color: rgb(94, 81, 55); /* rgb(94, 81, 55) */
     font-style: italic;
     font-size: 0.9em;
 }
