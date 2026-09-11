@@ -9,7 +9,8 @@ body {
     background-color: white;
     margin: 0 auto;
     padding: 10px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 nav ul li {
     display: inline-block;
@@ -44,6 +45,84 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
 }
+
+/* Application form styling that works with the shared stylesheet */
+.page-intro {
+    text-align: center;
+}
+
+.application-page {
+    width: 100%;
+}
+
+.application-form {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #d8c49f;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+    display: grid;
+    gap: 22px;
+    padding: 28px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.application-form fieldset {
+    border: 1px solid #d8c49f;
+    border-radius: 12px;
+    padding: 14px 18px;
+}
+
+.application-form legend {
+    font-weight: bold;
+    color: #a7926b;
+    padding: 0 8px;
+}
+
+.application-form p {
+    margin: 10px 0;
+}
+
+.application-form label {
+    display: inline-block;
+    min-width: 130px;
+    margin-right: 8px;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="tel"],
+.application-form input[type="date"],
+.application-form select {
+    border: 1px solid #a7926b;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin: 4px 0;
+}
+
+.application-form input[type="radio"] {
+    margin-left: 12px;
+}
+
+.application-form input[type="submit"] {
+    background-color: #d8c49f;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.application-form input[type="submit"]:hover {
+    background-color: #a7926b;
+    transition-duration: 0.2s;
+}
+
+.form-actions {
+    text-align: center;
+}
+
 #job-postings-container h2 {
     text-align: left;
 }
